@@ -36,9 +36,9 @@ export function Education() {
                   {entry.institution}
                 </h3>
                 <p className="text-sm text-silver">{entry.program}</p>
-                <p className="mt-2 max-w-xl text-text-secondary">
+                {/* <p className="mt-2 max-w-xl text-text-secondary">
                   {entry.description}
-                </p>
+                </p> */}
               </motion.li>
             ))}
           </ol>
